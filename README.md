@@ -1,6 +1,6 @@
 # npmtest-ember-responsive
 
-#### test coverage for  [ember-responsive (v2.0.2)](https://github.com/freshbooks/ember-responsive#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-ember-responsive.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-ember-responsive) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-ember-responsive.svg)](https://travis-ci.org/npmtest/node-npmtest-ember-responsive)
+#### basic test coverage for  [ember-responsive (v2.0.2)](https://github.com/freshbooks/ember-responsive#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-ember-responsive.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-ember-responsive) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-ember-responsive.svg)](https://travis-ci.org/npmtest/node-npmtest-ember-responsive)
 
 #### An ember-cli addon that give you a simple, Ember-aware way of dealing with media queries.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-ember-responsive/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-ember-responsive/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-ember-responsive/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-ember-responsive/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-ember-responsive/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-ember-responsive/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-ember-responsive/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-ember-responsive/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-ember-responsive/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-ember-responsive/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-ember-responsive/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-ember-responsive/build/coverage.html/index.html)
 
@@ -118,7 +118,8 @@
         "start": "ember server",
         "test": "ember try:testall"
     },
-    "version": "2.0.2"
+    "version": "2.0.2",
+    "bin": {}
 }
 ```
 
